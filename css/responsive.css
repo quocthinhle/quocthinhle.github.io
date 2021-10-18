@@ -1,0 +1,147 @@
+    @media only screen and  (max-width: 767px) {
+    header {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+
+    .green-col {
+        width: 100%;
+    }
+
+    .blue-col {
+        width: 100%;
+    }
+
+    .header-content {
+        flex-direction: column;
+    }
+
+    .contact-flex {
+        flex-direction: column;
+    }
+    .two-col {
+        flex-direction: column;
+    }
+
+    .introduction {
+        flex-direction: column;
+    }
+    .intro-left {
+        width: 100%;
+    }
+
+    .top-left {
+        margin-top: 2rem;
+        width: 214px;
+        height: 214px;
+        margin-bottom: 2rem !important;
+    }
+
+    .top-right {
+        text-align: center;
+    }
+
+    #name-main {
+        margin-bottom: .5rem;
+    }
+
+    .introduce-buttons {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .top-main {
+        padding-bottom: 2.5rem;
+    }
+
+    img {
+        position: static !important;
+        
+    }
+
+    .top-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-left {
+        width: 100%;
+        margin-bottom: 5rem !important;
+    }
+
+    #full-button {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .one-button {
+        height: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    header {
+        width: 95%;
+    }
+    main {
+        width: 95%;
+    }
+    footer {
+        width: 95%;
+    }
+    .introduction {
+        padding-right: 1.5rem;
+    }
+    .intro-left {
+        word-break:initial
+        width: 70% !important;
+        margin-right: 1rem;
+    }
+    .intro-right {
+        font-size: 1rem;
+        grid-column-gap: 0.5rem !important;
+    }
+    .contact-left {
+        margin-right: 3rem; 
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    header {
+        width: 90%;
+    }
+    main {
+        width: 90%;
+    }
+    footer {
+        width: 90%;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+    .intro-left {
+        padding-right: 1.5rem;
+        width: 60% !important;
+    }
+    .intro-right {
+        grid-column-gap: 0.5rem;
+    }
+    .introduction {
+        padding-right: 1.5rem;
+    }
+    .contact-right {
+        margin-right: 2rem;
+    }
+    .contact-left {
+        padding-right: 1rem;
+    }
+}
