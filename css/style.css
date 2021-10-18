@@ -124,6 +124,7 @@ img {
     z-index: 1;
     top: 40px;
     left: 45px;
+    object-fit: cover;
 }
 
 .button {
